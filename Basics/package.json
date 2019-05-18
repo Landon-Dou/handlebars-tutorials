@@ -1,0 +1,15 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Landon Dou <landon.dou@outlook.com> (https://id0.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "handlebars": "^4.1.2"
+  }
+}
