@@ -1,0 +1,15 @@
+{
+  "name": "list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Landon Dou <landon.dou@outlook.com> (https://id0.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "hbs": "^4.0.4"
+  }
+}

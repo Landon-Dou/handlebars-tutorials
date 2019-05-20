@@ -1,0 +1,22 @@
+<h1>This is Home page</h1>
+
+{{#if isLoggedIn}}
+<h5>Welcome back</h5>
+{{#each user as |value key|}}
+<p>{{key}} : {{value}}</p>
+{{/each}}
+<h5>here's the latest news</h5>
+
+<h5>----------------------</h5>
+{{#each content}}
+<p>{{this}}</p>
+{{/each}}
+<h5>----------------------</h5>
+
+{{else}}
+<h5>Click here to log In</h5>
+{{/if}}
+
+{{#unless isLoggedIn}}
+<h5>Ads</h5>
+{{/unless}}
