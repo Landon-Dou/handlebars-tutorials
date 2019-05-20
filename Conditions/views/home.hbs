@@ -1,0 +1,14 @@
+<h1>This is Home page</h1>
+<p>{{content}}</p>
+
+{{#if isLoggedIn}}
+<h5>Welcome back, 100001</h5>
+<h5>here's the latest news</h5>
+<h5>...</h5>
+{{else}}
+<h5>Click here to log In</h5>
+{{/if}}
+
+{{#unless isLoggedIn}}
+<h5>Ads</h5>
+{{/unless}}
